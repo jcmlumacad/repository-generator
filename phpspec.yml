@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Conds18\Repository
+        psr4_prefix: Conds18\Repository
+        src_path: src

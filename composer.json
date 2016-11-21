@@ -1,0 +1,24 @@
+{
+  "name": "conds18/repository",
+  "description": "Laravel Repository Generator",
+  "keywords" : ["laravel", "repository", "generator"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "John Conrad Lumacad",
+      "email": "johnconradl18@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "illuminate/support": "^5.3"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Conds18\\Repository\\": "src/"
+    }
+  }
+}

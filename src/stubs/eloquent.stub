@@ -1,0 +1,23 @@
+<?php
+
+namespace DummyNamespace;
+
+use App\DummyModel;
+use App\Repositories\DummyRepository;
+use App\Common\Repositories\EloquentRepository;
+
+class EloquentDummyRepository extends EloquentRepository implements DummyRepository
+{
+    /**
+     * @var DummyModel
+     */
+    protected $model;
+
+    /**
+     * @param DummyModel $dummyModel
+     */
+    public function __construct(DummyModel $dummyModel)
+    {
+        $this->model = $dummyModel;
+    }
+}
